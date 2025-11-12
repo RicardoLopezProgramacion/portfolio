@@ -1,0 +1,52 @@
+---
+import cv from "@cv";
+import Email from "@/icons/Email.astro";
+import Github from "@/icons/Github.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+
+const { basics } = cv;
+const { image, email, profiles } = basics;
+
+const linkedin = profiles.find((p) => p.network.toLowerCase() === "linkedin");
+const github = profiles.find((p) => p.network.toLowerCase() === "github");
+---
+
+<section class="flex flex-col md:flex-row max-w-2xl justify-center items-center gap-2">
+  <!-- Imagen -->
+  <figure>
+    <img
+      class="w-40 h-40 rounded-full object-cover border border-gray-400"
+      src={image}
+      alt="Foto de perfil"
+      loading="eager"
+    />
+  </figure>
+
+  <!-- Redes -->
+  <div class="flex md:flex-col items-start md:items-start gap-2 text-sm">
+    {linkedin && (
+      <a href={linkedin.url} target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-accent">
+        <LinkedIn class="w-5 h-5 text-accent" />
+        <span class="hidden md:inline">{linkedin.username || "LinkedIn"}</span>
+      </a>
+    )}
+
+    {github && (
+      <a href={github.url} target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 hover:text-accent">
+        <Github class="w-5 h-5 text-accent" />
+        <span class="hidden md:inline">{github.username || "GitHub"}</span>
+      </a>
+    )}
+
+    {email && (
+      <a href={`mailto:${email}`} class="flex items-center gap-2 hover:text-accent">
+        <Email class="w-5 h-5 text-accent" />
+        <span class="hidden md:inline">{email}</span>
+      </a>
+    )}
+  </div>
+</section>
+
+<style>
+  @reference "tailwindcss";
+</style>
