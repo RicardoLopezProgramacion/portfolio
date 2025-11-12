@@ -1,0 +1,123 @@
+{
+  "basics": {
+    "name": "Ricardo Alvaro Lopez",
+    "label": "Estudiante de Ingeniería de Sistemas",
+    "image": "/perfil-portafolio.dev.webp",
+    "email": "ricardoingsistemas@gmail.com",
+    "phone": "(+51) 123 456 789",
+    "url": "https://johndoe.com",
+    "summary": "Soy estudiante de Ingeniería de Sistemas en busca de una oportunidad para crecer profesionalmente y contribuir con mis habilidades. Me caracterizo por ser una persona responsable, proactiva y con muchas ganas de aprender nuevas herramientas que impulsen mi desarrollo personal y profesional.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Lima",
+      "countryCode": "PE",
+      "region": "Lima"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Ricardo Lopez",
+        "url": "https://www.linkedin.com/in/"
+      },
+      {
+        "network": "X",
+        "username": "Ricardo Lopez",
+        "url": "https://x.com/"
+      },
+      {
+        "network": "GitHub",
+        "username": "ricardoLopezProgramming",
+        "url": "https://github.com/ricardoLopezProgramming"
+      }
+    ]
+  },
+  "work": [],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Universidad Cesar Vallejo",
+      "url": "https://www.ucv.edu.pe/",
+      "area": "Ingeniería de Sistemas",
+      "studyType": "Estudiante de Bachiller",
+      "startDate": "2019-07-01",
+      "endDate": null,
+      "score": null,
+      "courses": []
+    },
+    {
+      "institution": "Alura Latam",
+      "url": "https://www.aluracursos.com/",
+      "area": "Programador Junior Backend",
+      "studyType": "Formación",
+      "startDate": "2022-01-01",
+      "endDate": "2023-01-01",
+      "score": null,
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [
+    {
+      "name": "Programador Junior Backend",
+      "date": "2023-11-07",
+      "issuer": "Alura Latam",
+      "url": "https://app.aluracursos.com/program/certificate/8cc45f4e-c9c0-415a-b659-0f1bc7d3f338"
+    }
+  ],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Desarrollo Web",
+      "level": "Intermedio",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "PHP",
+        "MySQL",
+        "TypeScript",
+        "Java",
+        "Astro",
+        "Git",
+        "APIs"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Español",
+      "fluency": "Nativo"
+    },
+    {
+      "language": "Inglés",
+      "fluency": "Básico"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": [
+    {
+      "name": "Conversor de Monedas (Challenge Alura Latam)",
+      "startDate": "2023-03-01",
+      "endDate": "2023-03-01",
+      "description": "Aplicación para la conversión de monedas utilizando una API de tasas de cambio.",
+      "highlights": [
+        "Implementación de consumo de API",
+        "Desarrollo de interfaz de usuario"
+      ],
+      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_funcionamiento-del-proyecto-de-conversor-activity-7047399708612276225-rGgc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM"
+    },
+    {
+      "name": "Encriptador de Mensajes (Challenge Alura Latam)",
+      "startDate": "2023-03-01",
+      "endDate": "2023-03-01",
+      "description": "Página web desarrollada para encriptar y desencriptar mensajes.",
+      "highlights": [
+        "Lógica de encriptación/desencriptación con JavaScript",
+        "Desarrollo de la interfaz web"
+      ],
+      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_oracle-alura-latam-activity-7018509964063199234-EGru?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM"
+    }
+  ]
+}
