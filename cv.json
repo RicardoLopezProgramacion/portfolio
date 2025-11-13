@@ -6,7 +6,7 @@
     "email": "ricardoingsistemas@gmail.com",
     "phone": "(+51) 123 456 789",
     "url": "https://johndoe.com",
-    "summary": "Soy estudiante de Ingeniería de Sistemas en busca de una oportunidad para crecer profesionalmente y contribuir con mis habilidades.",
+    "summary": "Soy Ricardo López, estudiante de Ingeniería de Sistemas, enfocado en la creación de soluciones tecnológicas y proyectos de software. Busco oportunidades para crecer profesionalmente mientras aplico mis conocimientos en desarrollo y análisis de sistemas.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -21,14 +21,19 @@
         "url": "https://www.linkedin.com/in/"
       },
       {
+        "network": "LinkedInCertificates",
+        "username": "Ricardo Lopez",
+        "url": "https://www.linkedin.com/in/ricardolopezsistemas/details/certifications/"
+      },
+      {
         "network": "X",
         "username": "Ricardo Lopez",
         "url": "https://x.com/"
       },
       {
         "network": "GitHub",
-        "username": "ricardoLopezProgramming",
-        "url": "https://github.com/ricardoLopezProgramming"
+        "username": "ricardoLopezProgramacion",
+        "url": "https://github.com/RicardoLopezProgramacion?tab=repositories"
       }
     ]
   },
@@ -57,14 +62,35 @@
     }
   ],
   "awards": [],
-  "certificates": [
-    {
-      "name": "Programador Junior Backend",
-      "date": "2023-11-07",
-      "issuer": "Alura Latam",
-      "url": "https://app.aluracursos.com/program/certificate/8cc45f4e-c9c0-415a-b659-0f1bc7d3f338"
-    }
-  ],
+    "certificates": [
+      {
+        "name": "Help Desk",
+        "date": "2025-11-07",
+        "issuer": "Universidad Cesar Vallejo",
+        "url": "https://www.linkedin.com/in/ricardolopezsistemas/overlay/1762910707214/single-media-viewer?type=IMAGE&profileId=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BzmXEH%2FQpRsukH3NVmzYusw%3D%3D",
+        "startDate": "2025-01-01",
+        "endDate": "2025-01-01",
+        "image": "https://media.licdn.com/dms/image/v2/D4E2DAQFAgTfonSIh0A/profile-treasury-image-shrink_800_800/B4EZp1qgdcKcAc-/0/1762910669413?e=1763647200&v=beta&t=rwZU3MwjM8CeNDCEi13fBqYGL0l0NtakG6Xbszxaxx0"
+      },
+      {
+        "name": "Docker Essential",
+        "date": "2025-11-07",
+        "issuer": "Cognitive class",
+        "url": "https://www.linkedin.com/in/ricardolopezsistemas/overlay/certifications/2011591294/multiple-media-viewer?profileId=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM&treasuryMediaId=1750063280731&type=IMAGE&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BMn2bLu8dRoaKOnxPWUZtEw%3D%3D",
+        "startDate": "2025-01-01",
+        "endDate": "2025-01-01",
+        "image": "https://media.licdn.com/dms/image/v2/D4E2DAQEo_UT989BOCA/profile-treasury-image-shrink_800_800/B4EZd35Ym5HsAY-/0/1750063221716?e=1763647200&v=beta&t=wFYF8DkbKJHIiOAAJExblygyp0bXa2POLMHmpVt_jxg"
+      },
+      {
+        "name": "Programador junior backend",
+        "date": "2023-11-07",
+        "issuer": "Alura Latam",
+        "url": "https://app.aluracursos.com/program/certificate/8cc45f4e-c9c0-415a-b659-0f1bc7d3f338",
+        "startDate": "2023-01-01",
+        "endDate": "2023-01-01",
+        "image": "https://media.licdn.com/dms/image/v2/D4E2DAQEJK9ZX7Vthyg/profile-treasury-image-shrink_1920_1920/profile-treasury-image-shrink_1920_1920/0/1689045761612?e=1763647200&v=beta&t=1BxJ5AKdZjgpy1-eWc1AoL651CaQG5jYn_FA7OaUBS8"
+      }
+    ],
   "publications": [],
   "skills": [
     {
@@ -106,7 +132,8 @@
         "Implementación de consumo de API",
         "Desarrollo de interfaz de usuario"
       ],
-      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_funcionamiento-del-proyecto-de-conversor-activity-7047399708612276225-rGgc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM"
+      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_funcionamiento-del-proyecto-de-conversor-activity-7047399708612276225-rGgc?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM",
+      "image": "https://github.com/RicardoLopezProgramacion/conversorAlura/assets/113433537/5bc2004a-95ca-4e28-9451-d8848300ff3a" 
     },
     {
       "name": "Encriptador de Mensajes (Challenge Alura Latam)",
@@ -117,7 +144,68 @@
         "Lógica de encriptación/desencriptación con JavaScript",
         "Desarrollo de la interfaz web"
       ],
-      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_oracle-alura-latam-activity-7018509964063199234-EGru?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM"
+      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_oracle-alura-latam-activity-7018509964063199234-EGru?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM",
+      "image": "https://raw.githubusercontent.com/RicardoLopezProgramacion/encriptador-git/master/IMG/hero.jpeg"
+    },
+    {
+      "name": "Encriptador de Mensajes (Challenge Alura Latam)",
+      "startDate": "2023-03-01",
+      "endDate": "2023-03-01",
+      "description": "Página web desarrollada para encriptar y desencriptar mensajes.",
+      "highlights": [
+        "Lógica de encriptación/desencriptación con JavaScript",
+        "Desarrollo de la interfaz web"
+      ],
+      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_oracle-alura-latam-activity-7018509964063199234-EGru?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM",
+      "image": "https://raw.githubusercontent.com/RicardoLopezProgramacion/encriptador-git/master/IMG/hero.jpeg"
+    },
+    {
+      "name": "Encriptador de Mensajes (Challenge Alura Latam)",
+      "startDate": "2023-03-01",
+      "endDate": "2023-03-01",
+      "description": "Página web desarrollada para encriptar y desencriptar mensajes.",
+      "highlights": [
+        "Lógica de encriptación/desencriptación con JavaScript",
+        "Desarrollo de la interfaz web"
+      ],
+      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_oracle-alura-latam-activity-7018509964063199234-EGru?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM",
+      "image": "https://raw.githubusercontent.com/RicardoLopezProgramacion/encriptador-git/master/IMG/hero.jpeg"
+    },
+    {
+      "name": "Encriptador de Mensajes (Challenge Alura Latam)",
+      "startDate": "2023-03-01",
+      "endDate": "2023-03-01",
+      "description": "Página web desarrollada para encriptar y desencriptar mensajes.",
+      "highlights": [
+        "Lógica de encriptación/desencriptación con JavaScript",
+        "Desarrollo de la interfaz web"
+      ],
+      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_oracle-alura-latam-activity-7018509964063199234-EGru?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM",
+      "image": "https://raw.githubusercontent.com/RicardoLopezProgramacion/encriptador-git/master/IMG/hero.jpeg"
+    },
+    {
+      "name": "Encriptador de Mensajes (Challenge Alura Latam)",
+      "startDate": "2023-03-01",
+      "endDate": "2023-03-01",
+      "description": "Página web desarrollada para encriptar y desencriptar mensajes.",
+      "highlights": [
+        "Lógica de encriptación/desencriptación con JavaScript",
+        "Desarrollo de la interfaz web"
+      ],
+      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_oracle-alura-latam-activity-7018509964063199234-EGru?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM",
+      "image": "https://raw.githubusercontent.com/RicardoLopezProgramacion/encriptador-git/master/IMG/hero.jpeg"
+    },
+    {
+      "name": "Encriptador de Mensajes (Challenge Alura Latam)",
+      "startDate": "2023-03-01",
+      "endDate": "2023-03-01",
+      "description": "Página web desarrollada para encriptar y desencriptar mensajes.",
+      "highlights": [
+        "Lógica de encriptación/desencriptación con JavaScript",
+        "Desarrollo de la interfaz web"
+      ],
+      "url": "https://www.linkedin.com/posts/ricardo-alvaro-lopez-8b0753252_oracle-alura-latam-activity-7018509964063199234-EGru?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD5nIkQBykHZjUZCW624BqnwxwxQ77pOvSM",
+      "image": "https://raw.githubusercontent.com/RicardoLopezProgramacion/encriptador-git/master/IMG/hero.jpeg"
     }
   ]
 }

@@ -1,0 +1,68 @@
+---
+import Card from "../Card.astro";
+import cv from "@cv";
+import Link from "./Link.astro";
+const { basics, certificates } = cv;
+---
+
+<section class="w-full lg:w-3/4 mx-auto flex flex-col justify-center bg-blue-50/75 backdrop-blur-md rounded-xl mt-8 px-4 py-2">
+    <div class="carrusel h-[200px] flex gap-4 p-4 border border-transparent overflow-x-auto">
+        <div class="group">
+            {certificates && certificates.map((certificate) => (
+                <Card
+                    link={certificate.url}
+                    image={certificate.image}
+                    description={certificate.name}
+                />
+            ))}
+        </div>
+        <div class="group">
+            {certificates && certificates.map((certificate) => (
+                <Card
+                    link={certificate.url}
+                    image={certificate.image}
+                    description={certificate.name}
+                />
+            ))}
+        </div>
+    </div>
+      <div class="mb-2 flex justify-center md:justify-end">
+    <Link href={basics.profiles[1].url} text="Ver todos los certificados" class="px-6 py-2" />
+  </div>
+</section>
+<style>
+
+    .carrusel {
+        touch-action: pan-y;
+    }
+
+    .carrusel::-webkit-scrollbar {
+        display: none;
+    }
+
+    .group {
+        display: flex;
+        gap: 1rem;
+        animation: spin 40s infinite linear;
+    }
+
+
+    @keyframes spin {
+        from {
+            transform: translate(0);
+        }
+        to {
+            transform: translate(-100%);
+        }
+    }
+     /* .carrusel::before {
+        content: "";
+        width: 1rem;
+        height: 1rem;
+        background-color: red;
+        position: absolute;
+        left: calc((25%/2)/2);
+        top: 0;
+
+     } */
+</style>
